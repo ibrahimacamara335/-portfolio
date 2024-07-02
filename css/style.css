@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+/*Les couleurs de base*/
+.cdb{
+    background-color: #262626;
+    color: #545454;
+    color: #54595f;
+    color: #1f2235;
+    background-color: #23263a;
+}
+
+
+body{
+    background-color: #1f2235;
+    font-family: poppins;
+}
+
+header{
+    background-color: #23263a;
+    position: fixed;
+    width: 100vw;
+}
+
+.navbar{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.navbar a{
+    color: white;
+}
+
+.navbar .logo{
+    font-weight: bold;
+    margin-left: 80px;
+}
+
+.style-logo{
+    color: red;
+}
+.navbar .navlinks ul{
+    font-weight: bold;
+    display: flex;
+}
+
+.navbar .navlinks ul li{
+    margin: 0 30px;
+}
+
+.navbar .navlinks ul .active a{
+    color: #f73859;
+}
+
+.navbar .navlinks ul li a :hover{
+    background-color: #f73859;
+}
+
+.section-bienvenu{
+    padding: 60px;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    box-sizing: border-box;
+    align-items: center;
+}
+
+.text-bienvenu{
+   
+   color: white;
+   text-align:center;
+   justify-content: center;
+   
+    
+    
+    
+}
+
+.photo-bienvenu{
+    width: 50%;
+    padding: 50px;
+    margin: 30px;
+
+    
+}
+.titre-bienvenu{
+    margin-bottom: 50px;
+}
+
+.about-intro{
+    color: white;
+    text-align: center;
+}
+
+.about-titre{
+    font-weight: bold;
+    padding: 20px;
+    font-size: 50px;
+}
+
+.about-paragraphe{
+    width: 550px;
+    margin-left: 400px;
+}
+
+.about-contenair{
+    display: flex;
+}
+
+.about-video{
+    padding: 50px;
+}
+
+.about-text{
+    color: white;
+    text-align: center;
+    padding: 50px;
+    margin-top: 50px;
+}
+
+.about-text h2{
+    margin-bottom: 30px;
+}
+
+.blok-contenair{
+    display: flex;
+    padding: 30px;
+    margin-left: 170px;
+
+}
+
+.blok-design{
+
+    width: 450px;
+    height: 250px;
+    background-color: #f73859;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+.blok-marketing{
+    width: 450px;
+    height: 250px;
+    background-color: #f73859;
+    margin-left: 30px;
+    padding: 50px;
+    text-align: center;
+    color: white;
+}
+
+
+
+
+
+
